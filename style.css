@@ -3,16 +3,16 @@
 
 body{
     background-color: #e1eef0;
+    height: 100%;
+    min-height: 130vh;
 }
 
 #sidebar{
-    position: sticky;
+    position: fixed;
     background-color: #abbfc2;
-    margin: 0;
     top: 1%;
     width: 25%;
     height: 44rem;
-    max-height: 98%;
     border-radius: 25px;
 }
 
@@ -97,9 +97,126 @@ body{
 
 #hi{
     font-size: xx-large;
-    line-height: 30px;
+    line-height: 50px;
+}
+
+#projects{
+    position: absolute;
+    top: 1;
+    height: 100%;
+    margin-bottom: 20px;
+}
+
+#projects-grid{
+    display: grid;
+    justify-content: center;
+    grid-gap: 10px;
+    grid-template-columns: repeat(2, 46%);
 }
 
 .hidden{
     display: none;
+}
+
+#wuggy-container{
+    background-color: #bd9c7b;
+    border-radius: 25px;
+}
+
+.project-img{
+    position: relative;
+    border: solid 5px;
+    border-color: rgb(228, 234, 237);
+    border-radius: 25px;
+    top: 1rem;
+    left: 10%;
+    width: 80%;
+}
+
+.project-header{
+    position: relative;
+    top: 1rem;
+    text-align: center;
+    padding: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.project-sub{
+    width: 100%;
+    min-height: 100%;
+    max-height: 80%;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 10px;
+}
+
+.learn-more-btn{
+    position: relative;
+    left: 33.5%;
+    background-color: rgb(228, 234, 237);
+    border-radius: 25px;
+    border: none;
+    font-family: "Lilita One", sans-serif;
+    font-weight: 400;
+    padding: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: 4%;
+    cursor: pointer;
+}
+
+.learn-more-btn:hover{
+    color: #ffff;
+    background-color: #7c8a8c;
+    transition: 0.3s;
+}
+
+#book-container{
+    background-color: #decc99;
+    border-radius: 25px;
+}
+
+#inside-book{
+    margin-top: 4%;
+}
+
+#demo-video{
+    position: relative;
+    top: 1rem;
+    left: 24%;
+    height: 40%;
+    width: 50%;
+    border: solid 5px;
+    border-color: rgb(228, 234, 237);
+    border-radius: 25px;
+}
+
+#twenty-container{
+    background-color: #b8a999;
+    border-radius: 25px;
+}
+
+#inside-twenty{
+    margin-top: 10%;
+}
+
+#figma-container{
+    background-color: #ab8476;
+    border-radius: 25px;
+}
+
+#inside-figma{
+    margin-top: 10%;
+}
+
+.project-blurb{
+    position: relative;
+    padding: 3%;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: "Overpass", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }

@@ -14,3 +14,15 @@ document.addEventListener('DOMContentLoaded', function (){
         projectsSection.classList.remove("hidden")
     });
 });
+
+function unhideBlurb(blurb){
+    document.getElementById(blurb+"-desc").classList.remove("hidden")
+    document.getElementById(blurb+"-learn").classList.add("hidden")
+    document.getElementById(blurb+"-hide").classList.remove("hidden")
+}
+
+function closeBlurb(blurb){
+    document.getElementById(blurb+"-desc").classList.add("hidden")
+    document.getElementById(blurb+"-learn").classList.remove("hidden")
+    document.getElementById(blurb+"-hide").classList.add("hidden")
+}

@@ -31,7 +31,60 @@
     interests in Software Engineering, Web Development, and Game Development.</p>
 </div>
 <div class="page-section hidden" id="projects">
-    <div class="project-sub" id=""></div>
+    <h1 class="section-header">Projects</h1>
+    <div id="projects-grid">
+    <div class="project-sub" id="wuggy-container">
+        <img src="images/wuggy_title.png" class="project-img"/>
+        <h1 class="project-header">Wuggy: The Productivity Pet</h1>
+        <p class="project-blurb hidden" id="wuggy-desc">Wuggy: The Productivity Pet is a browser extension built for DS6 of Human-Computer
+            Interaction at Williams College. The extension is built using HTML, CSS, and JavaScript. Within the extension, users
+            are able to create to-do lists, complete tasks in their to-do lists, and "feed" their Wuggy submitted Canvas Assignments
+            to progress the age of their virtual pet. The design document link for the project can be found 
+            <a href="https://denim-sidewalk-198.notion.site/The-Making-of-Wuggy-the-Productivity-Pet-Design-in-Practice-1ed4a80538fe8013b695fa3cd1190767">here</a>.
+        </p>
+        <button class="learn-more-btn" onclick="unhideBlurb('wuggy')" id="wuggy-learn">Learn More</button>
+        <button class="learn-more-btn hidden" onclick="closeBlurb('wuggy')" id="wuggy-hide">Show Less</button>
+    </div>
+    <div class="project-sub" id="book-container">
+        <div id="inside-book">
+            <img src="images/book-catalog.png" class="project-img"/>
+            <h1 class="project-header">Book Catalog Website</h1>
+            <p class="project-blurb hidden" id="book-desc">Our book catalog website is a simple HTML website built for DS4 of Human-Computer
+                Interaction at Wolliams College. The website is built using HTML, CSS, and JavaScript and uses the Bootstrap library. Within the website,
+                users have some books loaded with information about authors and summaries, users can search and filter by genre. The design document link for the project can be found
+                <a href="https://denim-sidewalk-198.notion.site/Judging-a-Book-by-Its-Catalog-Redesigning-with-Users-in-Mind-1d54a80538fe80769600da3dc60c0e22?pvs=143">here</a>.
+            </p>
+            <button class="learn-more-btn" onclick="unhideBlurb('book')" id="book-learn">Learn More</button>
+            <button class="learn-more-btn hidden" onclick="closeBlurb('book')" id="book-hide">Show Less</button>
+        </div>
+    </div>
+    <div class="project-sub" id="twenty-container">
+        <div id="inside-twenty">
+            <iframe id="demo-video" src="https://player.vimeo.com/video/1067970944?h=ff62526127&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" width="1500" height="3200" frameborder="0" allow="autoplay; fullscreen; picture-in-picture; clipboard-write; encrypted-media" title="2048 Demo Video"></iframe>
+            <h1 class="project-header">2048 Python</h1>
+            <p class="project-blurb hidden" id="twenty-desc">Using Python, a group in my Williams College Human-Computer Interaction
+                class developed a program that allows a user to play a rendition of 2048 with hand gestures. The program uses Python and 
+                the Mediapipe, cv2, and pyautogui libraries. The design document link for the project can be found
+                <a href="https://medium.com/@pay1_72714/implementing-intuitive-gesture-controls-for-2048-4bcdd25e7136">here</a>.
+            </p>
+            <button class="learn-more-btn" onclick="unhideBlurb('twenty')" id="twenty-learn">Learn More</button>
+            <button class="learn-more-btn hidden" onclick="closeBlurb('twenty')" id="twenty-hide">Show Less</button>
+        </div>
+    </div>
+    <div class="project-sub" id="figma-container">
+        <div id="inside-figma">
+            <img src="images/figma.png" class="project-img"/>
+            <h1 class="project-header">Figma Redesigns</h1>
+            <p class="project-blurb hidden" id="figma-desc">Given the Williams College Health Portal, my team in my Williams College 
+                Human-Computer Interaction class were tasked to redesign pages within the website using Figma. The project utilizes
+                Figma to simulate the webpages. The design document link for the project can be found
+                <a href="https://medium.com/@chl2/designing-for-others-mobile-eph-patient-portal-for-first-years-b136f2462e3c">here</a>.
+            </p>
+            <button class="learn-more-btn" onclick="unhideBlurb('figma')" id="figma-learn">Learn More</button>
+            <button class="learn-more-btn hidden" onclick="closeBlurb('figma')" id="figma-hide">Show Less</button>
+        </div>
+    </div>
+    </div>
 </div>
 </body>
 </html>
